@@ -1,0 +1,28 @@
+查
+   搭建项目框架
+   启动的项目的时候就加载数据库数据
+   自动调用JdbcUtil  Class.forName();
+   
+   在Dao层写连接数据库的功能  select　* from student;
+   获得ResultSet
+   将List集合 ------javaBean
+   
+   最后酱List集合传输到service层
+   
+   由service层讲list传输到Control层
+   在control层我们讲List集合童工request的转发技术，将list转发到jsp页面
+   转发和重定向的区别
+     什么时候用转发
+     什么时候用重定向
+     
+     jsp： <% List list = request.getAttribute("list")
+               
+      %>
+     <%=stu.getSname()   %>
+
+赠
+
+删
+
+
+改
